@@ -98,7 +98,7 @@
 
 .message-row {
     float: left;
-    width: 100%;
+    width: calc(100% - 18px);;
     display: flex;
     margin-left: 18px;
 }
@@ -156,7 +156,7 @@
 .message-form-container {
     position: absolute;
     bottom: 0px;
-    width: calc(100% - 36px);
+    width: calc(100% - 18px);
     padding: 18px;
     background-color: rgb(240, 240, 240);
 }
@@ -170,7 +170,7 @@
 
 .message-input {
     height: 40px;
-    width: calc(100% - 132px);
+    width: calc(100% - 100px);
     background-color: white;
     border: 1px solid white;
     padding: 0px 18px;
